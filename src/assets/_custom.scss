@@ -1,0 +1,23 @@
+@charset "UTF-8";
+// header
+.nav-icon {
+  width: 2rem;
+  height: 2rem;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 2rem 2rem;
+  text-indent: -9999px;
+  &.nav-cart {
+    background-image: url('../../public/cart.png');
+  }
+  &.nav-login {
+    background-image: url('../../public/login.png');
+  }
+}
+
+.nav-link {
+  color: $white;
+  &:hover {
+    color: $success;
+  }
+}
